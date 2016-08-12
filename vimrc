@@ -2,11 +2,6 @@
 "syntax on
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-"   Filename: .vimrc                                                         "
-" Maintainer: Michael J. Smalley <michaeljsmalley@gmail.com>                 "
-"        URL: http://github.com/michaeljsmalley/dotfiles                     "
-"                                                                            "
-"                                                                            "
 " Sections:                                                                  "
 "   01. General ................. General Vim behavior                       "
 "   02. Events .................. General autocmd events                     "
