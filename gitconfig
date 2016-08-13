@@ -1,6 +1,8 @@
 [user]
 	name = Celso Mireles
 	email = celso.mireles@gmail.com
+[github]
+  user = celsom3
 [color]
   diff = auto
   status = auto
