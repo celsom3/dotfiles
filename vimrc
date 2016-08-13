@@ -1,5 +1,3 @@
-"set ruler laststatus=2 number title hlsearch
-"syntax on
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Sections:                                                                  "
@@ -43,7 +41,7 @@ autocmd Syntax json sou ~/.vim/syntax/json.vim
 " Prettify Vagrantfile
 autocmd BufRead,BufNewFile Vagrantfile set filetype=ruby
 
-" Prettify Markdown files
+"Prettify Markdown files
 augroup markdown
   au!
   au BufNewFile,BufRead *.md,*.markdown setlocal filetype=ghmarkdown
@@ -55,7 +53,7 @@ if exists('+colorcolumn')
   highlight ColorColumn ctermbg=red
 else
   highlight OverLength ctermbg=red ctermfg=white guibg=#592929
-  match OverLength /\%81v.\+/
+  match OverLength /\%91v.\+/
 endif
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
@@ -72,6 +70,7 @@ set ruler                 " Always show info along bottom.
 set showmatch
 set statusline=%<%f\%h%m%r%=%-20.(line=%l\ \ col=%c%V\ \ totlin=%L%)\ \ \%h%m%r%=%-40(bytval=0x%B,%n%Y%)\%P
 set visualbell
+set relativenumber        " make numbers on side show numbers relative to your current position
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " 05. Text Formatting/Layout                                                 "
