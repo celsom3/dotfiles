@@ -9,7 +9,9 @@ ZSH=$HOME/.oh-my-zsh
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
 #ZSH_THEME="xiong-chiamiov-plus"
-ZSH_THEME="agnoster"
+ZSH_THEME="bira"
+
+# Good ones: clean candy funky
 
 # Set to this to use case-sensitive completion
 # CASE_SENSITIVE="true"
@@ -66,6 +68,7 @@ alias vaghalt='vagrant halt'
 
 ## Miscellaneous Aliases
 alias htop='sudo htop'
+alias npm='sudo npm '
 
 # Shell Functions
 # qfind - used to quickly find files that contain a string in a directory
@@ -79,4 +82,10 @@ qfind () {
 if [ -f /usr/bin/vim ]; then
   export EDITOR=/usr/bin/vim
 fi
-export PATH=/usr/local/share/npm/bin:$PATH
+
+export PATH=/usr/local/Cellar/yarn/0.19.1:$PATH
+export MONGO_PATH=/usr/local/Cellar/mongod/3.4.1
+export PATH=$PATH:$MONGO_PATH/bin
+export PATH=$HOME/.npm-packages/bin:$PATH
+
+export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
