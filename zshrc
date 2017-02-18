@@ -33,7 +33,7 @@ COMPLETION_WAITING_DOTS="true"
 
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(git zsh-syntax-highlighting brew repo sudo knife vagrant bundler web-search branch colorize dnf npm node heroku)
+plugins=(git zsh-syntax-highlighting brew repo sudo knife vagrant bundler web-search branch colorize npm node heroku)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -59,16 +59,7 @@ alias gx='gitx --all'
 alias got='git '
 alias get='git '
 
-## Vagrant Aliases
-alias vag='vagrant'
-alias vagup='vagrant up'
-alias vagdestroy='vagrant destroy'
-alias vagssh='vagrant ssh'
-alias vaghalt='vagrant halt'
 
-## Miscellaneous Aliases
-alias htop='sudo htop'
-alias npm='sudo npm '
 
 # Shell Functions
 # qfind - used to quickly find files that contain a string in a directory

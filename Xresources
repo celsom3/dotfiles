@@ -1,16 +1,5 @@
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-!   Filename .Xresources                                                     !
-! Maintainer: Michael J. Smalley <michaeljsmalley@gmail.com>                 !
-!        URL: http://github.com/michaeljsmalley/dotfiles                     !
-!                                                                            !
-!                                                                            !
-! Sections:                                                                  !
-!   01. General ................. General xterm behavior                     !
-!   02. Theme/Colors ............ Colors, fonts, etc.                        !
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-! 01. General                                                                !
+! General                                                                !
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 XTerm*background: black
 XTerm*foreground: white
@@ -25,7 +14,7 @@ XTerm*saveLines: 1000
 XTerm*multiClickTime: 250
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-! 02. Theme/Colors                                                           !
+! Theme/Colors                                                           !
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 xterm*font: -*-fixed-medium-r-*-*-15-*-*-*-*-*-iso8859-*
 xterm*font1: -*-*-*-*-*-*-2-*-*-*-*-*-*-*
