@@ -83,7 +83,10 @@ set shiftround            " always indent/outdent to the nearest tabstop
 set expandtab             " use spaces instead of tabs
 set smartindent           " automatically insert one extra level of indentation
 set smarttab              " use tabs at the start of a line, spaces elsewhere
-set nowrap                " don't wrap text
+set wrap                  " wrap text
+set linebreak             " only wrap at a character
+set textwidth=0           " prevents Vim from automatically inserting line breaks
+set wrapmargin=0          "
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " 06. Custom Commands                                                        "
@@ -94,4 +97,3 @@ command PrettyJSON %!python -m json.tool
 
 " Execute pathogen
 execute pathogen#infect()
-
