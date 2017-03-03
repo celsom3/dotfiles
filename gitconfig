@@ -33,7 +33,7 @@
   summary = true
 [core]
 	editor = vim
-	excludesfile = /Users/remchi/.gitignore_global
+	excludesfile = /Users/celso/.gitignore_global
 	autocrlf = input
 [credential]
 	helper = osxkeychain
