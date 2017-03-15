@@ -62,4 +62,11 @@ else
 fi
 }
 
+install_vim_plugins () {
+  git clone https://github.com/scrooloose/nerdtree.git ~/.vim/bundle/nerdtree
+  git clone https://github.com/kien/ctrlp.vim.git ~/.vim/bundle/ctrlp.vim
+}
+
 install_zsh
+
+install_vim_plugins
