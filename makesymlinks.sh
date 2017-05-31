@@ -62,17 +62,10 @@ else
 fi
 }
 
-install_vim_plugins () {
-  #git clone https://github.com/scrooloose/nerdtree.git ~/.vim/bundle/nerdtree
-  #git clone https://github.com/kien/ctrlp.vim.git ~/.vim/bundle/ctrlp.vim
-}
-
 install_other_things () {
   brew install tmux
 }
 
 install_zsh
-
-install_vim_plugins
 
 install_other_things
