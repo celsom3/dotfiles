@@ -4,5 +4,5 @@ vim/.netrwhist
 chef/
 private
 *.DS_Store
-vim/bundle/nerdtree
-vim/bundle/ctrlp.vim
+# vim/bundle/nerdtree
+# vim/bundle/ctrlp.vim
