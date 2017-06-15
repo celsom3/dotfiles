@@ -47,7 +47,7 @@ else
     # If the platform is Linux, try an apt-get to install zsh and then recurse
     if [[ $platform == 'Linux' ]]; then
         if [[ -f /etc/redhat-release ]]; then
-            sudo dnf install zsh
+            sudo dnf install zsh -y
             install_zsh
         fi
         if [[ -f /etc/debian_version ]]; then
@@ -63,7 +63,22 @@ fi
 }
 
 install_other_things () {
-  brew install tmux
+    # Now check for which system we're on to install tmux
+    platform=$(uname);
+    # If the platform is Linux, try an apt-get to install zsh and then recurse
+    if [[ $platform == 'Linux' ]]; then
+        if [[ -f /etc/redhat-release ]]; then
+	          sudo dnf install vim -y
+            sudo dnf install tmux -y
+        fi
+        if [[ -f /etc/debian_version ]]; then
+            sudo apt-get install tmux -y
+        fi
+    # If the platform is OS X, tell the user to install tmux with homebrew
+    elif [[ $platform == 'Darwin' ]]; then
+  	brew install tmux
+        exit
+    fi
 }
 
 install_zsh
